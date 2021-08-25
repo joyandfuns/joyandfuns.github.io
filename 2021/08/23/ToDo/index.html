@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		Hello World | 
+		ToDo | 
 	 
 	Hexo
 	</title>
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
 
 			
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2021/08/23/ToDo/">
 										ToDo
 									</a>
@@ -141,7 +141,7 @@ var _hmt = _hmt || [];
 							</ul>
 			
 							<ul>
-								<li class="file active">
+								<li class="file">
 									<a href="/2021/08/19/hello-world/">
 										hello-world
 									</a>
@@ -166,12 +166,12 @@ var _hmt = _hmt || [];
 	<div id="content">
 		<h1 id="article-title">
 
-	hello-world
+	ToDo
 </h1>
 <div class="article-meta">
 	
 	<span>John Doe</span>
-	<span>2021-08-19 23:15:57</span>
+	<span>2021-08-23 23:12:35</span>
 		<div id="article-categories">
     
 		<span>Categories：</span>
@@ -187,19 +187,44 @@ var _hmt = _hmt || [];
 </div>
 
 <div id="article-content">
-	<p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+	<ol>
+<li><p>Shell–path–practice</p>
+<p>. Current path    .. parent path   / rootpaht  ~ home path</p>
+<p>Start with / is absolutely path   others is relative path</p>
+</li>
+<li><p>ls file      mv target destination (rename or mv file)   cp target destination (cp content or cp file)</p>
+</li>
+<li><p>&lt; (输入) and &gt; (输出) </p>
+</li>
+<li><p>grep leaning    grep ‘content’ filename   filter lines which contains ‘content’</p>
+</li>
+<li><p>find learning find ‘path’ -name -path ‘filter name’ -type d/f</p>
+</li>
+<li><p>ls ls -lh -a -T -G -t</p>
+</li>
+<li><p>TLDR</p>
+</li>
+<li><p>ls</p>
+<p> List directory contents.</p>
+<p> More information: <a target="_blank" rel="noopener" href="https://www.gnu.org/software/coreutils/ls">https://www.gnu.org/software/coreutils/ls</a>.</p>
+<p> - List files one per line:</p>
+<p>  ls -1</p>
+<p> - List all files, including hidden files:</p>
+<p>  ls -a</p>
+<p> - List all files, with trailing / added to directory names:</p>
+<p>  ls -F</p>
+<p> - Long format list (permissions, ownership, size, and modification date) of all files:</p>
+<p>  ls -la</p>
+<p> - Long format list with size displayed using human-readable units (KiB, MiB, GiB):</p>
+<p>  ls -lh</p>
+<p> - Long format list sorted by size (descending):</p>
+<p>  ls -lS</p>
+<p> - Long format list of all files, sorted by modification date (oldest first):</p>
+<p>  ls -ltr</p>
+<p> - Only list directories:</p>
+<p>  ls -d */</p>
+</li>
+</ol>
 
 </div>
 
@@ -207,13 +232,13 @@ var _hmt = _hmt || [];
     <div class="post-guide">
         <div class="item left">
             
-              <a href="/2021/08/19/concurrency/">
-                  <i class="fa fa-angle-left" aria-hidden="true"></i>
-                  concurrency
-              </a>
-            
         </div>
         <div class="item right">
+            
+              <a href="/2021/08/23/word/">
+                word
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
             
         </div>
     </div>
